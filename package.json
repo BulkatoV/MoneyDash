@@ -1,0 +1,26 @@
+{
+  "name": "moneydash",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": ["frontend", "ui-library"],
+  "engines": { "node": "24.x", "npm": "11.x" },
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "lint": "npm run lint --workspaces",
+    "test": "npm test --workspaces",
+    "test:coverage": "npm run test:coverage --workspaces"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "eslint": "^9.39.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.0",
+    "eslint-plugin-react-refresh": "^0.5.0",
+    "globals": "^17.0.0",
+    "typescript-eslint": "^8.45.0"
+  }
+}
