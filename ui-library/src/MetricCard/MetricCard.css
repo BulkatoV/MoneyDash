@@ -1,0 +1,16 @@
+.metriccard {
+  --metric-ink: #263442;
+  min-width: 0;
+  padding: 21px 23px;
+  border: 1px solid #dbe4e8;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.metriccard--positive { --metric-ink: #16705e; }
+.metriccard--negative { --metric-ink: #a44b34; }
+.metriccard__title { margin: 0; color: #526471; font-size: .88rem; font-weight: 600; }
+.metriccard__value { margin: 9px 0 0; color: var(--metric-ink); font-size: clamp(1.35rem, 4vw, 1.95rem); font-weight: 700; overflow-wrap: anywhere; }
+.metriccard__change { margin: 7px 0 0; color: #526471; font-size: .85rem; }
+.metriccard__change--positive { color: #16705e; }
+.metriccard__change--negative { color: #a44b34; }

@@ -1,0 +1,17 @@
+.chart {
+  min-width: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #dbe4e8;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.chart figcaption { color: #263442; font-size: 1rem; font-weight: 700; }
+.chart__svg { display: block; width: 100%; height: auto; margin-top: 13px; }
+.chart__svg text { fill: #526471; font-family: inherit; font-size: 13px; }
+.chart__grid { stroke: #e0e9ec; stroke-width: 1; }
+.chart__legend { display: flex; flex-wrap: wrap; gap: 8px 15px; padding: 0; margin: 8px 0 0; list-style: none; font-size: .8rem; color: #526471; }
+.chart__legend li { display: flex; align-items: center; gap: 5px; }
+.chart__legend span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
