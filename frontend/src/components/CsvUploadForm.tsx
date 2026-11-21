@@ -15,7 +15,7 @@ export function CsvUploadForm(): JSX.Element {
     <div className="upload-form">
       <label className="field-label" htmlFor="csv-file">Файл с операциями</label>
       <input id="csv-file" type="file" accept=".csv,text/csv" onChange={selectFile} aria-describedby="csv-note" />
-      <p id="csv-note" className="muted">CSV в UTF-8, до 1 МиБ. Обработка файла появится в MVP.</p>
+      <p id="csv-note" className="muted">CSV в UTF-8. Обработка файла появится в MVP.</p>
       {file && <StatusMessage>Выбран файл «{file.name}».</StatusMessage>}
     </div>
   )
